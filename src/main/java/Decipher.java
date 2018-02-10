@@ -10,14 +10,22 @@ public class Decipher {
         this.encrypted = encrypted;
     }
 
-    protected String performDecipher(){
-        return decipherText(cipher, encrypted);
+    protected String performDecipher() throws DecipherException {
+        try {
+            return decipherText(cipher, encrypted);
+        } catch(ArrayIndexOutOfBoundsException e){
+            throw new DecipherException("the cipher \"" + cipher + "\" does not match the length of the alphabet");
+        }
     }
 
     private HashMap<Character, Character> mapCipher(String cipher){
         HashMap<Character, Character> cipherMap = new HashMap<>();
         char[] alphabetArray = AtBash.alphabet.toCharArray();
         char[] cipherArray = cipher.toCharArray();
+        if(cipherArray.length > alphabetArray.length){
+            throw new ArrayIndexOutOfBoundsException();
+        }
+
         for(int i = 0; i < alphabetArray.length; i++){
             cipherMap.put(cipherArray[i], alphabetArray[i]);
         }
