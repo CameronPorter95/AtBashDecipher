@@ -57,4 +57,24 @@ public class DecipherTestSuite {
 
         }
     }
+
+    @Test
+    public void testCipherWithSpaces(){
+        Decipher decipher = new Decipher("spa                    ces", "skd qj qucbjvq?");
+        try {
+            assertEquals("zkdwqjwquxbjvq?", decipher.performDecipher());
+        } catch (DecipherException e) {
+
+        }
+    }
+
+    @Test
+    public void testCipherWithOddCharacters(){
+        Decipher decipher = new Decipher("iʕ•ᴥ•ʔ☜ლʘ‿ʘ(`・ω・´)ヽ(´▽`)/◕", "skd qj qucbjvq?");
+        try {
+            assertEquals("skd qj qucbjvq?", decipher.performDecipher());
+        } catch (DecipherException e) {
+
+        }
+    }
 }

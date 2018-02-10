@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf8f31c-5778-414d-8d18-1d38628b24ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DecipherException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/AtBash.class" afterPath="$PROJECT_DIR$/out/production/classes/AtBash.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/Decipher.class" afterPath="$PROJECT_DIR$/out/production/classes/Decipher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AtBash.java" afterPath="$PROJECT_DIR$/src/main/java/AtBash.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Decipher.java" afterPath="$PROJECT_DIR$/src/main/java/Decipher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DecipherTestSuite.java" afterPath="$PROJECT_DIR$/src/main/java/DecipherTestSuite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,8 +34,8 @@
       <file leaf-file-name="DecipherTestSuite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DecipherTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -669,6 +663,9 @@
     <history-entry file="DecipherTestSuite - 2018.02.10 at 21h 30m 28s.xml">
       <configuration name="DecipherTestSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DecipherTestSuite - 2018.02.10 at 21h 34m 29s.xml">
+      <configuration name="DecipherTestSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1394" height="878" extended-state="0" />
@@ -752,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DecipherTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
